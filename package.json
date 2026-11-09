@@ -1,0 +1,11 @@
+{
+  "name": "igromir-web-lab3",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Учебный сайт магазина настольных игр «ИгроМир» — лабораторная работа № 3",
+  "scripts": {
+    "build:css": "sass scss/style.scss css/style.css --style=expanded",
+    "watch:css": "sass --watch scss/style.scss:css/style.css --style=expanded"
+  },
+  "devDependencies": { "sass": "^1.83.0" }
+}
